@@ -3,7 +3,7 @@ channels: &id001
 - ryanvolz
 company: https://github.com/ryanvolz/radioconda
 condarc:
-  auto_activate: false
+  auto_activate: true
   channel_priority: strict
   channels: *id001
 header_image: header.png
