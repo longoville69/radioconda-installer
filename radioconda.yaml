@@ -11,6 +11,8 @@ platforms:
   - osx-arm64
   - win-64
 dependencies:
+  - _x86_64-microarch-level # [linux64]
+  - _x86_64-microarch-level # [osx64]
   - airspy
   - airspyhf
   - alsa-plugins # [linux]
@@ -34,6 +36,7 @@ dependencies:
   - gnuradio-inspector
   - gnuradio-iqbalance
   - gnuradio-iridium
+  - gnuradio-isdbt
   - gnuradio-leo
   - gnuradio-lora_sdr
   - gnuradio-m2k
@@ -42,6 +45,7 @@ dependencies:
   - gnuradio-radar
   - gnuradio-rds
   - gnuradio-satellites
+  - gnuradio-tempest
   - gqrx
   - hackrf
   - hamlib-all
@@ -50,6 +54,7 @@ dependencies:
   - libiio
   - libm2k
   - limesuite
+  - liquid-dsp
   - matplotlib
   - mirisdr
   - m17-cxx-demod
